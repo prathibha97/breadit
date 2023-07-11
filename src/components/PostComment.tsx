@@ -59,7 +59,7 @@ const PostComment: FC<PostCommentProps> = ({
         title: 'Something went wrong',
         description:
           'Comment was not posted successfully, please try again later',
-        varient: 'destructive',
+        variant: 'destructive',
       });
     },
     onSuccess: () => {
